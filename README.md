@@ -20,6 +20,7 @@ This README would normally document whatever steps are necessary to get your app
 * setup database setting in env file (keep in mind the Admin panel and front end will use same database)
 * remove the old storage file from public folder
 * php artisan storage:link
+* database is also available in repositry folder name deliverypizza.sql
 
 ### For Online server deployemnt ###
 * in home.blade.php line number 17 image src will be like this //www.yourdomain.com{{$item->image->first()->src}}   Note-> this for online server deployment

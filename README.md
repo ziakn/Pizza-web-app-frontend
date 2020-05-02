@@ -27,6 +27,7 @@ This README would normally document whatever steps are necessary to get your app
 * in layouts folder got app.blade.php line number 164 image src will be like this //www.yourdomain.com{{$item->image->first()->src}}   Note-> this for online server deployment
 
 ### For Local host deployemnt ###
+* in .env file setup according to production
 *  go to Web App Admin Panel/public/storage/uploads.  copy all the files and put inside the  Web Frontend/public/storage/uploads.
 * in home.blade.php line number 17 image src will be like this //www.yourdomain.com{{$item->image->first()->src}}   Note->  for local deployment
 * in layouts folder got app.blade.php line number 164 image src will be like this //www.yourdomain.com{{$item->image->first()->src}}   Note-> for local deployment
